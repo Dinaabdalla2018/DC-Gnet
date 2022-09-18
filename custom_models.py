@@ -5,11 +5,11 @@ from keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
 from keras.layers import Input, MaxPooling2D, AveragePooling2D, average
 from keras.layers import concatenate, Conv2D, Conv2DTranspose, Dropout
 from keras.models import Model
-from keras.optimizers import Adadelta
+from tensorflow.keras.optimizers import Adadelta
 
 from keras.models import Model, load_model
 from keras.layers import Dense, Dropout, Activation, Flatten, BatchNormalization, UpSampling2D
-from keras.layers import Convolution2D, ZeroPadding2D, Embedding, LSTM, merge, Lambda, Deconvolution2D, Cropping2D
+from keras.layers import Convolution2D, ZeroPadding2D, Embedding, LSTM, merge, Lambda, Cropping2D
 
 from keras.layers import ELU, ReLU
 act = ReLU
